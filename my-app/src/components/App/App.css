@@ -15,7 +15,8 @@
 }
 
 .instructions {
-	text-align: left;
+	text-align: justify;
+	line-height: 30px;
 }
 
 button {
@@ -39,4 +40,14 @@ button {
 button:hover {
 	opacity: 0.6;
 	cursor: pointer;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 20px; /* Adds 10px of margin below each list item */
 }

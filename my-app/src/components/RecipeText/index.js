@@ -24,6 +24,10 @@ function RecipeText({ setShowRecipe }) {
 		getRecipe();
 	}, []);
 
+	const instructionItems = instructions
+		.split("\r\n")
+		.map((item, index) => <li key={index}>{item}</li>);
+
 	return (
 		<div className="recipe-text">
 			<h1>{recipe}</h1>
@@ -32,9 +36,13 @@ function RecipeText({ setShowRecipe }) {
 				alt="img of meal"
 				style={{ width: "400px", height: "auto" }}
 			/>
-			<div className="recipe-container"><h2>Recipe Instructions:</h2>
-			<p className="instructions">{instructions}</p></div>
-			<button className="close-button" onClick={() => setShowRecipe(false)}>Close Recipe</button>
+			<div className="recipe-container">
+				<h2>Recipe Instructions:</h2>
+				<ul className="instructions">{instructionItems}</ul>
+			</div>
+			<button className="close-button" onClick={() => setShowRecipe(false)}>
+				Close Recipe
+			</button>
 		</div>
 	);
 }

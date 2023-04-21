@@ -13,7 +13,7 @@ function App() {
 	return (
 		<div className="App">
 			<button onClick={handleClick}>
-				Surprise me with a new recipe
+				Surprise me with a new recipe!
 			</button>
 			{showRecipe && <RecipeText setShowRecipe={setShowRecipe} />}
 		</div>

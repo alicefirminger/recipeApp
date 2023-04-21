@@ -8,24 +8,25 @@
 	font-style: Lato;
 	letter-spacing: 2px;
 	font-size: 20px;
-	border-left: solid 1px black;
-	border-right: solid 1px black;
-	border-bottom: solid 1px black;
+	border: none;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	padding: 50px;
 }
 
 .instructions {
 	text-align: justify;
 	line-height: 30px;
+	font-weight: 300;
 }
 
 button {
 	background-color: rgb(211, 178, 49);
-	width: 150px;
+	width: 400px;
 	height: 50px;
 	border-radius: 5px;
 	opacity: 1;
 	transition: 0.3s;
+	border-style: none;
 	display: inline-block;
 	text-decoration: none;
 	cursor: pointer;
@@ -33,7 +34,7 @@ button {
 
 .close-button {
 	background-color: #d64933;
-	width: 150px;
+	width: 400px;
 	height: 50px;
 }
 
@@ -50,4 +51,16 @@ ul {
 
 li {
 	margin-bottom: 30px; /* Adds 10px of margin below each list item */
+}
+
+img {
+	width: 400px;
+	height: auto;
+	border-radius: 20px;
+}
+
+h1,
+h2 {
+	letter-spacing: 5px;
+	font-weight: 200;
 }

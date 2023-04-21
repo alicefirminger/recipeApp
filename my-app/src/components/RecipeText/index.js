@@ -14,6 +14,7 @@ function RecipeText({ setShowRecipe }) {
 			setRecipe(data.meals[0].strMeal);
 			setInstructions(data.meals[0].strInstructions);
 			setImage(data.meals[0].strMealThumb);
+			
 			console.log("RecipeText component rendered");
 
 			// console.log(data.meals[0].strMeal)
@@ -33,9 +34,7 @@ function RecipeText({ setShowRecipe }) {
 			<h1>{recipe}</h1>
 			<img
 				src={image}
-				alt="img of meal"
-				style={{ width: "400px", height: "auto" }}
-			/>
+				alt="img of meal"/>
 			<div className="recipe-container">
 				<h2>Recipe Instructions:</h2>
 				<ul className="instructions">{instructionItems}</ul>

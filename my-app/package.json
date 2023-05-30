@@ -1,4 +1,5 @@
 {
+  "proxy": "http://localhost:3000",
   "homepage": "http:/alicefirminger.github.io/",
   "name": "my-app",
   "version": "0.1.0",

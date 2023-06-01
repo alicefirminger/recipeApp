@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/alicefirminger.github.io/static/css/main.822008a5.css",
-    "main.js": "/alicefirminger.github.io/static/js/main.599d1f2d.js",
-    "static/js/787.28cb0dcd.chunk.js": "/alicefirminger.github.io/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/alicefirminger.github.io/index.html",
-    "main.822008a5.css.map": "/alicefirminger.github.io/static/css/main.822008a5.css.map",
-    "main.599d1f2d.js.map": "/alicefirminger.github.io/static/js/main.599d1f2d.js.map",
-    "787.28cb0dcd.chunk.js.map": "/alicefirminger.github.io/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/recipeApp/static/css/main.822008a5.css",
+    "main.js": "/recipeApp/static/js/main.8e9fa54b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/recipeApp/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/recipeApp/index.html",
+    "main.822008a5.css.map": "/recipeApp/static/css/main.822008a5.css.map",
+    "main.8e9fa54b.js.map": "/recipeApp/static/js/main.8e9fa54b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/recipeApp/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.822008a5.css",
-    "static/js/main.599d1f2d.js"
+    "static/js/main.8e9fa54b.js"
   ]
 }

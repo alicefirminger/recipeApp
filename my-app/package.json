@@ -1,6 +1,6 @@
 {
   "proxy": "http://localhost:3000",
-  "homepage": "https://alicefirminger.github.io/",
+  "homepage": "https://alicefirminger.github.io/recipeApp",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
